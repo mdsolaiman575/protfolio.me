@@ -1094,10 +1094,10 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 	position: relative;
 	overflow: hidden;
 }
-.fn_cs_portfolio .portfolio_list .inner img{
+/* .fn_cs_portfolio .portfolio_list .inner img{
 	min-width: 100%;
 	opacity: 0;
-}
+} */
 .fn_cs_portfolio .portfolio_list .main{
 	position: absolute;
 	top: 0px;

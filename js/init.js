@@ -67,18 +67,18 @@ $.fn.DeeboProgressIsInViewport = function(content) {
 		},
 		
 		magnific: function(){
-			$('.gallery_zoom').each(function() { // the containers for all your galleries
-				$(this).magnificPopup({
-					delegate: 'a.zoom', // the selector for gallery item
-					type: 'image',
-					gallery: {
-					  enabled:true
-					},
-					removalDelay: 300,
-					mainClass: 'mfp-fade'
-				});
+			// $('.gallery_zoom').each(function() { // the containers for all your galleries
+			// 	$(this).magnificPopup({
+			// 		delegate: 'a.zoom', // the selector for gallery item
+			// 		type: 'image',
+			// 		gallery: {
+			// 		  enabled:true
+			// 		},
+			// 		removalDelay: 300,
+			// 		mainClass: 'mfp-fade'
+			// 	});
 
-			});
+			// });
 			$('.popup-youtube, .popup-vimeo').each(function() { // the containers for all your galleries
 				$(this).magnificPopup({
 					disableOn: 700,
